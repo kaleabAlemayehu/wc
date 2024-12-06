@@ -6,4 +6,4 @@ build:
 	@go build main.go	
 
 run:    build
-	@./main	-c test.txt && rm ./main
+	@./main	-c -l -w test.txt && rm ./main
