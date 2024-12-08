@@ -9,4 +9,4 @@ run:    build
 	@./main	-m ./test.txt && rm ./main
 
 pipe:    build
-	@cat ./test.txt && ./main
+	@cat ./test.txt | ./main
